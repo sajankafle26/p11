@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header 
+{
+    padding: 20px 0;
+}
+nav a 
+{
+    color: orange;
+}
+.logo span 
+{
+    color: orange;
+}
+.btn a
+{
+    background:orange;
+    color: #fff !important;
+    padding: 10px;
+    display: inline-block;
+}
+.banner-left h1 
+{
+    font-size: 54px;
+}
+.banner-left p 
+{
+    padding: 20px 0;
+}
+.counter
+{
+    background: orange;
+    padding: 40px 0;
+    margin: 40px 0;
+    color: #fff;
+}
+.btn1 
+{
+    border: 2px solid orange;
+    padding: 10px;
+    box-shadow: 0 0 5px 1px #555555;
+}
+ .quote 
+ {
+    padding: 140px 0;
+    color: #fff;
+    text-align: center;
+    background: url(../Img/quote.jpg);
+ }
+ .quote  h2 
+ {
+    color: orange;
+    font-size: 35px;
+    padding: 10px 0;
+ }
+ .services
+ {
+    margin: 40px 0;
+ }
+ footer
+ {
+    padding: 50px;
+    background: orange;
+    text-align: center;
+ }
+ footer ul 
+ {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    color: #fff;
+    margin: 50px 0;
+ }
